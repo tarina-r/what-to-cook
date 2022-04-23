@@ -2,28 +2,83 @@
   "items": [
     {
       "id": "01",
-      "name" : "Egg Omlette",
-      "description" : "Description"
+      "name": "Egg Omlette",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Oil"
+        },
+        {
+          "value": 2,
+          "title": "Sugar"
+        }
+      ],
+      "description": "Description",
+      "image": "assets/images/omlette.jpg"
     },
     {
       "id": "02",
-      "name" : "Fried Egg",
-      "description" : "Description"
+      "name": "Fried Egg",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Oil"
+        },
+        {
+          "value": 2,
+          "title": "Sugar"
+        }
+      ],
+      "description": "Description",
+      "image": "assets/images/fried.jpg"
     },
     {
       "id": "03",
-      "name" : "Mediterranean Eggs",
-      "description" : "Description"
+      "name": "Mediterranean Eggs",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Oil"
+        },
+        {
+          "value": 2,
+          "title": "Sugar"
+        }
+      ],
+      "description": "Description",
+      "image": "assets/images/med.jpg"
     },
     {
       "id": "04",
-      "name" : "Mediterranean Eggs",
-      "description" : "Description"
+      "name": "Poached Eggs",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Oil"
+        },
+        {
+          "value": 2,
+          "title": "Sugar"
+        }
+      ],
+      "description": "Description",
+      "image": "assets/images/poached.jpg"
     },
     {
       "id": "05",
-      "name" : "Poached Eggs",
-      "description" : "Description"
+      "name": "Egg Sandwich",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Oil"
+        },
+        {
+          "value": 2,
+          "title": "Sugar"
+        }
+      ],
+      "description": "Description",
+      "image": "assets/images/sandwich.jpg"
     }
   ]
 }

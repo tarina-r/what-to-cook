@@ -13,7 +13,7 @@ class RecipeListScreen extends StatefulWidget {
 }
 
 class _RecipeListScreenState extends State<RecipeListScreen> {
-  Recipe _recipe = new Recipe();
+  Recipe _recipe = Recipe();
 
   @override
   initState() {
@@ -25,14 +25,12 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
     final String response = await rootBundle.loadString('assets/sample.json');
     final data = await json.decode(response);
     setState(() {
-      // items = data["items"];
-      // _recipe = data;
       _recipe = Recipe.fromJson(data);
     });
   }
 
-  navigate(BuildContext context) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => const RecipeListDetailsScreen()));
+  navigate(BuildContext context, Items items) {
+    Navigator.push(context, MaterialPageRoute(builder: (context) =>  RecipeListDetailsScreen(items: items)));
   }
 
   @override
@@ -60,7 +58,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                             leading: Text(items[index].id),
                             title: Text(items[index].name),
                             subtitle: Text(items[index].description),
-                            onTap: () => navigate(context),
+                            onTap: () => navigate(context, items[index]),
                           ),
                         );
                       },
