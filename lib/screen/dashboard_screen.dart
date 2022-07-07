@@ -14,8 +14,8 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  List<String> ingredients = ["Basil Leaves", "Black Pepper","Bread","Egg","Mayonnaise","Mustard Paste","Oil","Onions","Salt", "Tomato"  ];
-  List<bool> ingredients1 = [false, false, false, false, false, false, false, false, false, false];
+  List<String> ingredients = ["Basil Leaves", "Black Pepper","Bread","Butter","Egg","Mayonnaise","Mustard Paste","Oil","Onions","Salt", "Tomato"  ];
+  List<bool> ingredients1 = [false, false, false, false, false,false, false, false, false, false, false];
   bool timeDilation = false;
   List<Items> items = [];
   List<Items> filteredItems = [];

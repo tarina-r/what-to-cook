@@ -61,7 +61,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                         return Card(
                           margin: const EdgeInsets.all(10),
                           child: ListTile(
-                            leading: Text(items[index].id),
+                            //leading: Text(items[index].id),
                             title: Text(items[index].name),
                             //subtitle: Text(items[index].description),
                             onTap: () => navigate(context, items[index]),
