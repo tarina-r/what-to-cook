@@ -42,7 +42,7 @@ class Items {
     if (json['ingredients'] != null) {
       ingredients = <Ingredients>[];
       json['ingredients'].forEach((v) {
-        ingredients!.add(new Ingredients.fromJson(v));
+        ingredients.add(new Ingredients.fromJson(v));
       });
     }
     description = json['description'];
@@ -54,7 +54,7 @@ class Items {
     data['id'] = this.id;
     data['name'] = this.name;
     if (this.ingredients != null) {
-      data['ingredients'] = this.ingredients!.map((v) => v.toJson()).toList();
+      data['ingredients'] = this.ingredients.map((v) => v.toJson()).toList();
     }
     data['description'] = this.description;
     data['image'] = this.image;
@@ -63,7 +63,7 @@ class Items {
 }
 
 class Ingredients {
- late int value;
+  late int value;
   late String title;
 
   Ingredients({required this.value, required this.title});

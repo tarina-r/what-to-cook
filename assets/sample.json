@@ -7,13 +7,20 @@
         {
           "value": 1,
           "title": "Oil"
+
         },
         {
           "value": 2,
-          "title": "Sugar"
+          "title": "Egg"
+
+        },
+        {
+          "value": 3,
+          "title": "Butter"
+
         }
       ],
-      "description": "Description",
+      "description": "Ingredients Amount- \n•\t3 eggs beaten\n•\t 1 tsp sunflower oil\n•\t1 tsp butter\nInstructions\n1.\tSeason the beaten eggs well with salt and pepper. Heat the oil and butter in a non-stick frying pan over a medium-low heat until the butter has melted and is foaming.\n\n2.\tPour the eggs into the pan, tilt the pan ever so slightly from one side to another to allow the eggs to swirl and cover the surface of the pan completely. Let the mixture cook for about 20 seconds then scrape a line through the middle with a spatula.\n\n3.\tTilt the pan again to allow it to fill back up with the runny egg. Repeat once or twice more until the egg has just set.\n\n4.\tAt this point you can fill the omelette with whatever you like – some grated cheese, sliced ham, fresh herbs, sautéed mushrooms or smoked salmon all work well. Scatter the filling over the top of the omelette and fold gently in half with the spatula. Slide onto a plate to serve.\n",
       "image": "assets/images/omlette.jpg"
     },
     {
@@ -26,10 +33,10 @@
         },
         {
           "value": 2,
-          "title": "Sugar"
+          "title": "Egg"
         }
       ],
-      "description": "Description",
+      "description": "Ingredients Amount \n•\t1 tablespoon oil\n•\t1 egg\nInstructions\n1.\tCooking 1 egg? Pull out a small skillet, preferably cast iron. Cooking 2 eggs? Use a medium-to-large skillet and use 2 tablespoons of olive oil.\n2.\tCrack an egg into a small bowl or ramekin and place it near the stove. Warm your skillet over medium-high heat until it’s hot enough that a drop of water sizzles rapidly on contact.\n3.\tReduce the heat to medium and add the olive oil to the pan. Gently tilt the pan around so the olive oil covers the base of the pan. The olive oil should be so warm that it shimmers on the pan (if not, give it a little more time to warm up).\n4.\tCarefully pour the egg into the skillet and watch out for hot oil splatters (if you’re planning to add another egg to the same pan, pour it onto the side so there’s room for another).\n5.\tLet the egg cook, gently tilting the pan occasionally to redistribute the oil, until the edges are crisp and golden and the yolk is cooked to your liking, about 2 minutes for runny yolks or 2 ½ to 3 minutes for medium yolks. (If you’re adding another egg to the skillet, go ahead and do it while the other is cooking.)\n6.\tTransfer the cooked egg(s) to a plate. If you’d like to cook more eggs in the same skillet, add another drizzle of olive oil, leave the heat at medium (you might even need to dial it down a bit to avoid smoking) and add your next egg. Repeat as necessary.\n",
       "image": "assets/images/fried.jpg"
     },
     {
@@ -42,10 +49,26 @@
         },
         {
           "value": 2,
-          "title": "Sugar"
+          "title": "Onions"
+        },
+        {
+          "value": 3,
+          "title": "Tomato"
+        },
+        {
+          "value": 4,
+          "title": "Basil Leaves"
+        },
+        {
+          "value": 5,
+          "title": "Egg"
+        },
+        {
+          "value": 6,
+          "title": "Black Pepper"
         }
       ],
-      "description": "Description",
+      "description": "Ingredients Amount\n•\t1 teaspoon Oil\n•\t4 medium onions, chopped (1/4 cup)\n•\t1 medium tomato, chopped (3/4 cup)\n•\t1 tablespoon chopped fresh basil leaves or 1 teaspoon dried basil leaves\n•\t4 eggs \n•\tBlack pepper\n\nInstructions\n1.\tHeat oil in 8-inch nonstick skillet over medium heat. Cook onions in oil 2 minutes, stirring occasionally. Stir in tomato and basil. Cook about 1 minute, stirring occasionally, until tomato is heated through.\n\n2.\tBeat eggs thoroughly with fork or wire whisk; pour over tomato mixture.\n\n\n3.\tAs mixture begins to set at bottom and side, gently lift cooked portions with spatula so that thin, uncooked portion can flow to bottom. Avoid constant stirring. Cook 3 to 4 minutes or until eggs are thickened throughout but still moist. Sprinkle with pepper.\n",
       "image": "assets/images/med.jpg"
     },
     {
@@ -54,14 +77,11 @@
       "ingredients": [
         {
           "value": 1,
-          "title": "Oil"
-        },
-        {
-          "value": 2,
-          "title": "Sugar"
+          "title": "Egg"
         }
+
       ],
-      "description": "Description",
+      "description": "Ingredients Amount\n•\t4 eggs\nInstructions\n1.\tFill a saucepan with several inches of water. Heat the water on high until it reaches a boil and then lower the heat until the water is at a bare simmer (just a few bubbles coming up now and then).\n2.\tCrack egg into a small bowl and gently slip it into the water: Working with the eggs one at a time, crack the egg into a small bowl or cup. Place the bowl close to the surface of the hot water and gently slip the egg into the water. If you want, use a spoon to push some of the egg whites closer to their yolks, to help them hold together. Add all of the eggs you are poaching to the pan in the same way, keeping some distance between them.\n3.\tTurn off heat, cover pan, set timer for 4 minutes: Turn off the heat and cover the pan. Set a timer for 4 minutes (or count out loud to 60, four times). At this point the egg whites should be completely cooked, while the egg yolks are still runny. Note that the timing depends on the size of the eggs, the number of eggs in the pot, and if you are cooking at altitude, so adjust accordingly. If you are at altitude, want firmer egg yolks, or are poaching more than 4 eggs at once, you may need to cook them longer. If you try 4 minutes and the eggs are too cooked, reduce the time.\n4.\tRemove eggs with slotted spoon: Gently lift the poached eggs out of the pan with a slotted spoon and place on a plate to serve.\n",
       "image": "assets/images/poached.jpg"
     },
     {
@@ -74,10 +94,30 @@
         },
         {
           "value": 2,
-          "title": "Sugar"
+          "title": "Bread"
+        },
+        {
+          "value": 3,
+          "title": "Mayonnaise"
+        },
+        {
+          "value": 4,
+          "title": "Mustard Paste"
+        },
+        {
+          "value": 5,
+          "title": "Egg"
+        },
+        {
+          "value": 6,
+          "title": "Black Pepper"
+        },
+        {
+          "value": 7,
+          "title": "Salt"
         }
       ],
-      "description": "Description",
+      "description": "Ingredients Amount\n•\t1 egg\n•\t1 teaspoon oil\n•\t1/4 teaspoon mustard paste\n•\tblack pepper as required\n•\t1 and 1/4 tablespoon mayonnaise\n•\tsalt As required\n•\t2 bread slices\nInstructions\n1.\tTo prepare this easy recipe, take a deep-bottomed pan and add enough water to it along with eggs. Let the eggs boil for 10 minutes. After the eggs boil, drain the water and let the eggs cool down a little. Now peel the eggs and chop them roughly.\n2.\tTake a bowl and add the chopped eggs, mayonnaise, salt, mustard paste to the bowl and mix thoroughly. Add pepper powder to the mixture and mix again to form the filling.\n3.\tToast the bread slices firstly, then, take a bread slice, spread butter on it and add the egg mixture to the bread. Cover it up with the other bread slice to prepare a sandwich. Make more such sandwiches with the leftover mixture and bread slices and serve.\n",
       "image": "assets/images/sandwich.jpg"
     }
   ]

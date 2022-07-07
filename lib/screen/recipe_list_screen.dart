@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class RecipeListScreen extends StatefulWidget {
-  const RecipeListScreen({Key? key}) : super(key: key);
+  final List<Items> items;
+
+  const RecipeListScreen({Key? key, required this.items}) : super(key: key);
 
   @override
   _RecipeListScreenState createState() => _RecipeListScreenState();
@@ -30,16 +32,20 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
   }
 
   navigate(BuildContext context, Items items) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) =>  RecipeListDetailsScreen(items: items)));
+    Navigator.push(context, MaterialPageRoute(builder: (context) => RecipeListDetailsScreen(items: items)));
   }
 
   @override
   Widget build(BuildContext context) {
-    List<Items> items = _recipe.items ?? [];
+    List<Items> items = widget.items;
 
     return Scaffold(
       appBar: AppBar(title: const Text("Recipe List")),
       body: Container(
+        constraints: const BoxConstraints.expand(),
+        decoration: const BoxDecoration(
+          image: DecorationImage(image: AssetImage("assets/images/foodiesfeed.com_oranges-with-ice.jpg"), fit: BoxFit.cover),
+        ),
         child: Column(
           children: [
             //ElevatedButton(
@@ -57,7 +63,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                           child: ListTile(
                             leading: Text(items[index].id),
                             title: Text(items[index].name),
-                            subtitle: Text(items[index].description),
+                            //subtitle: Text(items[index].description),
                             onTap: () => navigate(context, items[index]),
                           ),
                         );
