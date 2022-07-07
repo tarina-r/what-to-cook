@@ -32,20 +32,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   filter(BuildContext context) {
     filteredItems = [];
-    // bool result = ingredients1.where((item){
-    //   return item == true;
-    // }) as bool;
-    // // print(result.toList());
-    // ingredients1.forEach((item) {
-    //   if(item){
-    //     print(ingredients1.indexOf(item));
-    //   }
-    // });
+
     for (int i = 0; i < ingredients1.length; i++) {
       if (ingredients1[i]) {
-        print(ingredients[i]);
         for (Items item in items) {
-          if (item.ingredients.where((ing) => ingredients[i] == ing.title).isNotEmpty) {
+          if (item.ingredients.where((ing) => ingredients[i] == ing.title).isNotEmpty && !filteredItems.contains(item)) {
             filteredItems.add(item);
           }
         }
