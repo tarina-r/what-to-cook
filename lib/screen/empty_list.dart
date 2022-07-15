@@ -16,6 +16,14 @@ class _EmptyListState extends State<EmptyList> {
           title: const Text("Oops!!!"),
         ),
         body: Center(
+          child:Container(
+          constraints: const BoxConstraints.expand(),
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/white-background.jpg"),
+              fit: BoxFit.cover,
+            ),
+          ),
 
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,//main axis the vertical axis in a column so this positions the children at the center of the vertical axis
@@ -30,6 +38,7 @@ class _EmptyListState extends State<EmptyList> {
               ],
               crossAxisAlignment: CrossAxisAlignment.center,
             )
+        )
         )
     );
   }

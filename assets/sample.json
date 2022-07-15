@@ -116,9 +116,110 @@
           "value": 7,
           "title": "Salt"
         }
+
       ],
       "description": "Ingredients Amount\n•\t1 egg\n•\t1 teaspoon oil\n•\t1/4 teaspoon mustard paste\n•\tblack pepper as required\n•\t1 and 1/4 tablespoon mayonnaise\n•\tsalt As required\n•\t2 bread slices\nInstructions\n1.\tTo prepare this easy recipe, take a deep-bottomed pan and add enough water to it along with eggs. Let the eggs boil for 10 minutes. After the eggs boil, drain the water and let the eggs cool down a little. Now peel the eggs and chop them roughly.\n2.\tTake a bowl and add the chopped eggs, mayonnaise, salt, mustard paste to the bowl and mix thoroughly. Add pepper powder to the mixture and mix again to form the filling.\n3.\tToast the bread slices firstly, then, take a bread slice, spread butter on it and add the egg mixture to the bread. Cover it up with the other bread slice to prepare a sandwich. Make more such sandwiches with the leftover mixture and bread slices and serve.\n",
       "image": "assets/images/sandwich.jpg"
+    },
+    {
+      "id": "06",
+      "name": "Baked Chicken Breast",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Butter"
+        },
+        {
+          "value": 2,
+          "title": "Salt"
+        },
+        {
+          "value": 3,
+          "title": "Chicken Breast"
+        }
+      ],
+      "description": "Ingredients Amount \n•\t1/4 cup butter, melted\n•\t1 teaspoon salt\n•\t4 skinless, boneless chicken breast halves\nInstructions\n1.\tPreheat the oven to 350 degrees F (175 degrees C). Lightly butter a baking dish.\n2.\tStir together melted butter and salt in a bowl.\n3.\tArrange chicken in the prepared baking dish. Brush butter mixture onto chicken until thoroughly coated, pouring any extra over chicken.\n4.\tBake in the preheated oven until no longer pink in the center and juices run clear, 30 to 45 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).\n",
+      "image": "assets/images/cb.jpg"
+    },
+    {
+      "id": "07",
+      "name": "Brown sugar and Mustard Chicken Breast",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Brown Sugar"
+        },
+        {
+          "value": 2,
+          "title": "Mustard Paste"
+        },
+        {
+          "value": 3,
+          "title": "Chicken Breast"
+        }
+      ],
+      "description": "Ingredients Amount \n•\t1/2 cup brown sugar.\n•\t1/3 cup mustard paste\n•\t1 kg chicken breast halves\nInstructions\n1.\tIn a bowl, mix together the brown sugar and mustard.\n2.\tPlace chicken breasts in a medium baking dish lined with foil. Pour the sugar-mustard paste over the chicken.\n3.\tPlace chicken in a preheated 400°F oven. Bake for 25 to 30 minutes until done. Chicken is done when a meat thermometer inserted in the center reaches 170°F. Remove chicken from the oven and transfer to a plate to keep warm. Pour the pan juices into a small saucepan and bring to a boil. Boil for 2 to 3 minutes until sauce has slightly thickened. Sauce will thicken more as it cools.\n4.\tSlice chicken breasts into serving pieces. Spoon the Brown Sugar Mustard sauce over the chicken. Serve 3-Ingredient Brown Sugar Mustard Baked Chicken Breasts with Green Beans and Sliced Garlic or an Escarole Salad with Apples.\n",
+
+      "image": "assets/images/honey-mustard.jpg"
+    },
+    {
+      "id": "08",
+      "name": "Creamy Chicken",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Cream Cheese"
+        },
+        {
+          "value": 2,
+          "title": "Cream of Chicken Soup"
+        },
+        {
+          "value": 3,
+          "title": "Chicken Breast"
+        }
+      ],
+      "description": "Ingredients Amount \n•\t1 (8 oz.) package cream cheese\n•\t2 cans cream of chicken soup\n•\t1 kg chicken breast halves\nInstructions\n1.\tPlace all ingredients in a crockpot and cook all day on low.\n",
+      "image": "assets/images/creamy-chicken.jpg"
+    },
+    {
+      "id": "09",
+      "name": "Banana Soft Serve",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "Banana"
+        },
+        {
+          "value": 2,
+          "title": "Lemon Juice"
+        }
+
+
+      ],
+      "description": "Ingredients Amount \n•\t6 bananas, peeled, chopped and frozen\n•\t1/4 cup lemon juice\nInstructions\n1.\tProcess frozen banana and lemon juice in a food processor, scraping down sides frequently, until mixture is smooth and resembles soft serve ice-cream. Transfer to a metal loaf pan. Place in the freezer for 2 hours or until just firm but still scoop-able.\n",
+      "image": "assets/images/banana.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Cream Cheese and Chocolate Cake",
+      "ingredients": [
+        {
+          "value": 1,
+          "title": "White Chocolate"
+        },
+        {
+          "value": 2,
+          "title": "Cream Cheese"
+        },
+        {
+          "value": 3,
+          "title": "Egg"
+        }
+
+      ],
+      "description": "Ingredients Amount \n•\t700g Baking White Chocolate, chopped\n•\t750g cream cheese, chopped, softened\n•\t6 eggs, separated\nInstructions\n1.\tPreheat oven to 130C. Place 250g white chocolate in a baking dish. Roast for 10 minutes, then remove and stir. Return to oven and roast, stirring every 5 minutes, for 25 minutes or until dark golden and caramelised. (Don’t worry if chocolate seizes as it will come back together in the next step.)\n2.\tTransfer roasted chocolate to a heatproof bowl set over a saucepan of simmering water (don’t let bowl touch water), stirring for 3-4 minutes until smooth. Remove from heat, cool slightly.\n3.\tIncrease oven to 150C. Grease and line the base and sides of two 18cm springform cake pans with baking paper.\n4.\tAdd 250g cream cheese to caramelised chocolate and stir well to combine. Then add the egg yolks and mix to combine. Using an electric mixer, beat eggwhites to stiff peaks. Working in 3 batches, fold eggwhites into the chocolate mixture. Divide mixture between prepared cake pans and bake for 1 hour 30 minutes or until cake springs back in the centre when pressed lightly. Cool in pans for 20 minutes, then transfer cakes in pans to the fridge to cool completely (cake will sink a little while cooling).\n5.\tTo make the icing, melt 300g white chocolate in a heatproof bowl set over a saucepan of gently simmering water (don’t let bowl touch water). Transfer to an electric mixer and add remaining 500g cream cheese. Beat on medium speed for 8 minutes or until smooth and glossy. Release cakes from pans and place one cake layer on a cake stand, then spread 1/2 cup cream cheese icing over the top. Top with second cake layer and using a palette knife, spread remaining icing over the top and sides of the cake. Refrigerate until ready to serve.\n6.\tTo make chocolate shards, line two baking trays with baking paper. Roast 100g white chocolate in a baking dish following the roasting process in step 1.\n7.\tMeanwhile, melt remaining 50g white chocolate in a heatproof bowl set over a saucepan of simmering water (don't let bowl touch water), stirring until melted and smooth.\n8.\tUsing a palette knife, spread roasted chocolate over the piece of baking paper on one tray, and spread melted chocolate over the piece of baking paper on the remaining tray. Roll up sheets of baking paper from the long edge and place both trays in the freezer for 30 minutes to harden. Remove from freezer, unroll and carefully transfer shards to fridge until ready to serve.\n9.\tDecorate cake with roasted chocolate and white chocolate shards to serve.\n",
+      "image": "assets/images/cake.jpg"
     }
   ]
 }

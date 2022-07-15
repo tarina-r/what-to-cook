@@ -44,7 +44,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
       body: Container(
         constraints: const BoxConstraints.expand(),
         decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage("assets/images/foodiesfeed.com_oranges-with-ice.jpg"), fit: BoxFit.cover),
+          image: DecorationImage(image: AssetImage("assets/images/white-background.jpg"), fit: BoxFit.cover),
         ),
         child: Column(
           children: [

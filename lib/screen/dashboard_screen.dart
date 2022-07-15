@@ -14,8 +14,8 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  List<String> ingredients = ["Basil Leaves", "Black Pepper","Bread","Butter","Egg","Mayonnaise","Mustard Paste","Oil","Onions","Salt", "Tomato"  ];
-  List<bool> ingredients1 = [false, false, false, false, false,false, false, false, false, false, false];
+  List<String> ingredients = ["Banana","Basil Leaves", "Black Pepper","Bread","Brown Sugar","Butter","Chicken Breast","Cream Cheese","Cream of Chicken Soup","Egg","Lemon Juice","Mayonnaise","Mustard Paste","Oil","Onions","Salt", "Tomato","White Chocolate"  ];
+  List<bool> ingredients1 = [false,false, false, false, false, false,false,false, false,false, false, false, false,false, false, false, false, false];
   bool timeDilation = false;
   List<Items> items = [];
   List<Items> filteredItems = [];
@@ -67,15 +67,18 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Choose Your Ingredients!!!!")),
-      body: Container(
-        constraints: const BoxConstraints.expand(),
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/images/white-background.jpg"),
-            fit: BoxFit.cover,
-          ),
-        ),
+
+      body: SingleChildScrollView(
+        // child:Container(
+        // constraints: const BoxConstraints.expand(),
+        // decoration: const BoxDecoration(
+        //   image: DecorationImage(
+        //     image: AssetImage("assets/images/white-background.jpg"),
+        //     fit: BoxFit.cover,
+        //   ),
+        // ),
         child: Column(
+
           children: [
             Column(
               children: ingredients.map((item) {
@@ -98,13 +101,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 width: double.infinity,
                 child: OutlinedButton(
                   onPressed: () => filter(context),
-                  child: const Text("Submit"),
+                  child: const Text("Search"),
                 ),
               ),
             ),
           ],
         ),
-      ),
+      )
+
     );
   }
 }

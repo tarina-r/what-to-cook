@@ -1,4 +1,5 @@
 import 'package:cook/screen/dashboard_screen.dart';
+import 'package:cook/screen/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
         fontFamily: 'VarelaRound',
       ),
-      home: const DashboardScreen(),
+      home: const Main_Screen(),
     );
   }
 }
